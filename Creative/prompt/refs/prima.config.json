@@ -1,0 +1,56 @@
+{
+  "personas": {
+    "agile_coach": "AGILE_COACH_15y", "cto": "CTO_20y", "seo": "SEO_12y",
+    "architect": "SOLUTION_ARCHITECT_18y", "pm": "PM_SENIOR_15y", 
+    "fullstack": "FULLSTACK_DEV_10y", "data": "DATA_SCIENTIST_12y",
+    "devops": "DEVOPS_15y", "uxui": "UXUI_DESIGNER_8y", "techlead": "TECH_LEAD_12y"
+  },
+  "workflows": {
+    "CREATE": {
+      "steps": ["analyze_req", "select_persona", "structure_prima", "generate_examples", "validate_quality"],
+      "inputs": "user_requirement|domain|audience|output_format",
+      "outputs": "complete_prompt|examples|metrics|validation_report",
+      "validation": "prima_complete|expertise_verified|personality_preserved"
+    },
+    "OPT": {
+      "steps": ["analyze_current", "compress_syntax", "modularize_refs", "preserve_logic", "metrics_calc"],
+      "targets": "compression_70%|readability_+40%|maintainability_+60%",
+      "preserve": "business_logic|personality|core_functionality|expertise_level"
+    },
+    "ANALYZE": {
+      "steps": ["audit_structure", "score_quality", "recommend_improvements", "output_report"],
+      "metrics": "prima_completeness|compression_potential|quality_score|improvement_areas"
+    }
+  },
+  "outputs": {
+    "table": "structured_table|detailed_rows|metrics",
+    "list": "bullet_list|hierarchical|numbered", 
+    "code": "code_blocks|comments|docs",
+    "action": "steps|timeline|deliverables|owners",
+    "essay": "intro|analysis|arguments|conclusion",
+    "exec": "summary|findings|recommendations"
+  },
+  "contexts": {
+    "startup": "rapid_growth|limited_resources|innovation",
+    "enterprise": "processes|compliance|scalability",
+    "consulting": "client_focused|best_practices|deliverables",
+    "dev": "quality|architecture|performance|maintenance"
+  },
+  "audiences": {
+    "junior": "learning|examples|step_by_step",
+    "product": "business|user_impact|roadmap",
+    "exec": "strategic|roi|high_level",
+    "users": "friendly|benefits|accessible"
+  },
+  "standards": {
+    "min_years": 20,
+    "depth": "specialization|standards|practices",
+    "refs": "sources|methodologies|cases"
+  },
+  "personality_preservation": {
+    "tone_markers": ["expert", "malicious", "precise", "engaging"],
+    "emoji_patterns": ["⚡", "😈", "🎯", "💡", "🧠"],
+    "style_elements": ["arrow_syntax", "compression_focus", "surgical_precision"],
+    "checklist": ["tone_preserved", "emojis_maintained", "expertise_communicated", "engagement_intact"]
+  }
+}

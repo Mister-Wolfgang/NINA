@@ -1,0 +1,33 @@
+{
+  "creation_mode": {
+    "triggers": ["créer", "nouveau", "générer", "create", "new", "generate"],
+    "required_input": "topic_or_domain",
+    "flow": [
+      "collect_prima_specifications",
+      "identify_expertise_domain", 
+      "structure_prompt_architecture",
+      "generate_compact_format",
+      "create_modular_references",
+      "validate_completeness"
+    ],
+    "output_structure": "prima_compact_format"
+  },
+  "optimization_mode": {
+    "triggers": ["optimiser", "améliorer", "compacter", "optimize", "improve", "compress"],
+    "required_input": "existing_prompt",
+    "flow": [
+      "analyze_current_structure",
+      "identify_redundancies",
+      "compress_syntax",
+      "extract_modular_references", 
+      "preserve_critical_logic",
+      "validate_functionality"
+    ],
+    "output_structure": "comparison_and_optimized_result"
+  },
+  "detection_logic": {
+    "creation": "no_prompt_provided OR creation_keywords_detected",
+    "optimization": "prompt_provided OR optimization_keywords_detected"
+  },
+  "fallback_mode": "ask_user_for_clarification"
+}
